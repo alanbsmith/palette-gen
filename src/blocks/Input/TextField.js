@@ -13,6 +13,10 @@ const TextField = styled.input`
   &:focus {
     border-bottom-color: ${props => props.theme.colors.textLight};
   }
+
+  @media(max-width: 600px) {
+    font-size: 32px;
+  }
 `;
 
 export default TextField;

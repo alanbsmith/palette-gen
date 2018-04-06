@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
 
+import Row from '../Row';
+
 import TextField from './TextField';
 
-const Input = styled.div`
-  display: flex;
-  flex: 1;
-  height: 80px;
+const Input = Row.extend`
+  height: 120px;
   margin: ${props => rem(props.theme.dimensions.baseGrid)};
 `;
 

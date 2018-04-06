@@ -4,6 +4,7 @@ function buildGlobalStyles(theme) {
       height: 100%;
     }
     body {
+      background: ${theme.colors.background};
       color: ${theme.colors.text};
       font-family: ${theme.fonts.primaryFallback};
       font-size: ${theme.dimensions.baseFontSize}px;
@@ -23,7 +24,7 @@ function buildGlobalStyles(theme) {
         button,
         input,
         select,
-        textarea {
+        textare
           font-family: ${theme.fonts.primary};
         }
       }

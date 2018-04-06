@@ -1,5 +1,5 @@
 {
-  "name": "Palette Gen",
+  "name": "palette-gen",
   "version": "0.1.0",
   "description": "a small app for generating color palettes",
   "main": "server.js",
